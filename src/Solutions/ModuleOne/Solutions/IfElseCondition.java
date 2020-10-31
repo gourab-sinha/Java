@@ -1,4 +1,4 @@
-package ModuleOne.Assignment;
+package Solutions.ModuleOne.Solutions;
 
 import java.util.Scanner;
 

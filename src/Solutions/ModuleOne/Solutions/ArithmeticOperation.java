@@ -1,4 +1,4 @@
-package ModuleOne.Assignment;
+package Solutions.ModuleOne.Solutions;
 
 public class ArithmeticOperation {
     public static void arithmeticOperation(){
