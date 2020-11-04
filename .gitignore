@@ -1,8 +1,8 @@
 # Macbook
-.DS_Store
-.vscode
-.idea/
-.iml
+*.DS_Store
+*.vscode
+*.idea/
+*.iml
 
 # Compiled class file
 *.class
