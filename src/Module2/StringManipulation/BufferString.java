@@ -1,4 +1,4 @@
-package ModuleTwo.StringManipulation;
+package Module2.StringManipulation;
 
 public class BufferString {
     /*

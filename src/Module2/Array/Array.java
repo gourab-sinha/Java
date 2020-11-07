@@ -1,4 +1,4 @@
-package ModuleTwo.Array;
+package Module2.Array;
 
 public class Array {
     public static void singleDArray(){

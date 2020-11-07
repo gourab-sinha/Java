@@ -1,4 +1,4 @@
-package ModuleTwo.StringManipulation;
+package Module2.StringManipulation;
 
 public class StringLang {
     // Immutable. Once created, we cannot change during its life cycle.
