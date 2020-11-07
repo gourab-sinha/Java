@@ -7,6 +7,7 @@ public class BufferString {
     * */
 
     public static void  stringBufferObject(){
+        System.out.println("String Buffer Object");
         StringBuffer str = new StringBuffer();
         System.out.println("Length: " + str.length() + " | Capacity: " + str.capacity());
         str.append("Gourab");

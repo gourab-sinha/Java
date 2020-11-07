@@ -2,6 +2,7 @@ package ModuleTwo;
 
 import ModuleTwo.Array.Array;
 import ModuleTwo.StringManipulation.BufferString;
+import ModuleTwo.StringManipulation.BuilderString;
 import ModuleTwo.StringManipulation.StringLang;
 
 public class Main {
