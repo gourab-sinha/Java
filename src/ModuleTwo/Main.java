@@ -18,5 +18,7 @@ public class Main {
         StringLang.stringMethods();
 
         BufferString.stringBufferObject();
+
+        BuilderString.stringBuilderObject();
     }
 }
