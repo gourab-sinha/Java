@@ -1,6 +1,7 @@
 package ModuleTwo;
 
 import ModuleTwo.Array.Array;
+import ModuleTwo.StringManipulation.BufferString;
 import ModuleTwo.StringManipulation.StringLang;
 
 public class Main {
@@ -14,5 +15,7 @@ public class Main {
         StringLang.stringWithNew();
         StringLang.concatInString();
         StringLang.stringMethods();
+
+        BufferString.stringBufferObject();
     }
 }
