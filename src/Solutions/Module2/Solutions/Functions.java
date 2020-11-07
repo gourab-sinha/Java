@@ -1,4 +1,4 @@
-package Solutions.ModuleTwo.Solutions;
+package Solutions.Module2.Solutions;
 
 public class Functions {
     public static void display(int[] ids, String[] names, double[] salaries){

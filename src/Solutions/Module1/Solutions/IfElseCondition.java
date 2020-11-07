@@ -1,4 +1,4 @@
-package Solutions.ModuleOne.Solutions;
+package Solutions.Module1.Solutions;
 
 import java.util.Scanner;
 

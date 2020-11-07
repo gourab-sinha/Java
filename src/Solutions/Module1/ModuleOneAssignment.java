@@ -1,6 +1,4 @@
-package Solutions.ModuleOne;
-
-import Solutions.ModuleOne.Solutions.*;
+package Solutions.Module1;
 
 public class ModuleOneAssignment {
     public static void main(String[] args){

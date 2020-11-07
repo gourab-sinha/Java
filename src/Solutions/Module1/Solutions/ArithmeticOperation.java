@@ -1,4 +1,4 @@
-package Solutions.ModuleOne.Solutions;
+package Solutions.Module1.Solutions;
 
 public class ArithmeticOperation {
     public static void arithmeticOperation(){

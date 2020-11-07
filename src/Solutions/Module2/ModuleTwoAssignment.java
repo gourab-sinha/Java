@@ -1,6 +1,6 @@
-package Solutions.ModuleTwo;
+package Solutions.Module2;
 
-import Solutions.ModuleTwo.Solutions.Functions;
+import Solutions.Module2.Solutions.Functions;
 
 import java.util.Scanner;
 
