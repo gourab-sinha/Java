@@ -1,9 +1,9 @@
-package ModuleTwo;
+package Module2;
 
-import ModuleTwo.Array.Array;
-import ModuleTwo.StringManipulation.BufferString;
-import ModuleTwo.StringManipulation.BuilderString;
-import ModuleTwo.StringManipulation.StringLang;
+import Module2.Array.Array;
+import Module2.StringManipulation.BufferString;
+import Module2.StringManipulation.BuilderString;
+import Module2.StringManipulation.StringLang;
 
 public class Main {
     public static void main(String[] args) {
