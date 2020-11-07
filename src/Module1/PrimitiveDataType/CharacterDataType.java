@@ -1,4 +1,4 @@
-package ModuleOne.PrimitiveDataType;
+package Module1.PrimitiveDataType;
 
 public class CharacterDataType {
     public static void stringDataType(){
