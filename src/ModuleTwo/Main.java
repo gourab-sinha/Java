@@ -10,5 +10,9 @@ public class Main {
         Array.singleDArrayInitialized();
         Array.twoDArrayInitialized();
 
+        StringLang.stringWithLiteral();
+        StringLang.stringWithNew();
+        StringLang.concatInString();
+        StringLang.stringMethods();
     }
 }
