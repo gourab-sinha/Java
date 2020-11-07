@@ -1,8 +1,8 @@
-package ModuleOne;
+package Module1;
 
-import ModuleOne.PrimitiveDataType.BooleanDataType;
-import ModuleOne.PrimitiveDataType.CharacterDataType;
-import ModuleOne.PrimitiveDataType.NumericDataType;
+import Module1.PrimitiveDataType.BooleanDataType;
+import Module1.PrimitiveDataType.CharacterDataType;
+import Module1.PrimitiveDataType.NumericDataType;
 
 public class Welcome {
     public static void main(String[] args){
