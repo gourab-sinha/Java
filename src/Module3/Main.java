@@ -3,6 +3,9 @@ package Module3;
 import Module3.ClassObjects.Employee;
 
 public class Main {
+    static {
+        System.out.println("Print Value");
+    }
     public static void main(String[] args) {
         // Creating object with default constructor.
         Employee employee = new Employee();
