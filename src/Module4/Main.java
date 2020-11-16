@@ -1,5 +1,6 @@
 package Module4;
 
+import Module4.Exceptions.Exceptions;
 import Module4.Inheritances.Circle;
 import Module4.Inheritances.Rectangle;
 import Module4.Inheritances.Shape;
@@ -70,6 +71,13 @@ public class Main {
         Student.setCollegeName("Lovely Professional University");
         System.out.println(s1.getUniversityName());
         System.out.println(s2.getUniversityName());
+
+        System.out.println("Exceptions");
+        Exceptions.ArithmeticExceptionMethod();
+        Exceptions.ArrayIndexOutOfBoundExceptionMethod();
+        Exceptions.NumberFormatExceptionMethod();
+        Exceptions.ThrowableMethod();
+
     }
 
     public static void printData(String detail){
