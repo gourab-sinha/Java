@@ -1,6 +1,8 @@
 package Module5.ReadFiles;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.InputStreamReader;
 
 public class ReadFile {
     private FileInputStream obj = null;
@@ -34,5 +36,32 @@ public class ReadFile {
             System.out.print((char)ch);
             ch = obj.read();
         }
+//        obj.close();
+    }
+
+    public void readFileCompletely() throws Exception{
+        byte b[] = new byte[obj.available()];
+        obj.read(b);
+        String str = new String(b);
+        System.out.println(str);
+//        obj.close();
+    }
+
+    public void convertByteStreamToCharStream() throws Exception{
+        obj = new FileInputStream(filePath);
+        InputStreamReader source = new InputStreamReader(obj);
+        BufferedReader reader = new BufferedReader(source);
+//        System.out.println(reader.readLine());
+
+        String line = reader.readLine();
+        while(line != null){
+            System.out.println(line);
+            Thread.sleep(1000);
+            line = reader.readLine();
+        }
+    }
+
+    public FileInputStream getFileInputObject() throws Exception{
+        return new FileInputStream(filePath);
     }
 }
