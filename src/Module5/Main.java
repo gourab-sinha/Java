@@ -1,6 +1,7 @@
 package Module5;
 
 import Module5.BoxingUnboxing.BoxingUnboxing;
+import Module5.Collections.*;
 import Module5.ReadFiles.ReadFile;
 import Module5.ReadFiles.WriteFile;
 import Module5.Wrappers.Wrappers;
@@ -53,6 +54,55 @@ public class Main {
             System.out.println("Fix the issue");
         }
 
+        System.out.println("---------------------------------------------------");
+        System.out.println("ArrayLists");
+        System.out.println("---------------------------------------------------");
+        ArrayListOperations arrayList = new ArrayListOperations();
+        arrayList.iterationFirst();
 
+        System.out.println("---------------------------------------------------");
+        System.out.println("List Iterations");
+        System.out.println("---------------------------------------------------");
+        ListOperations listIt = new ListOperations();
+        listIt.listIterationFirst();
+        listIt.listIterationSecond();
+        listIt.listIterationThird();
+        listIt.listIterationFourth();
+        listIt.listIterationFifth();
+
+        System.out.println("---------------------------------------------------");
+        System.out.println("Vector Iterations");
+        System.out.println("---------------------------------------------------");
+        VectorOperations vo = new VectorOperations();
+        vo.vectorIterationFirst();
+
+        System.out.println("---------------------------------------------------");
+        System.out.println("Queue operations");
+        System.out.println("---------------------------------------------------");
+        QueueOperations qo = new QueueOperations();
+        qo.queueFirst();
+        qo.queueSecond();
+
+        System.out.println("---------------------------------------------------");
+        System.out.println("Compare operations");
+        System.out.println("---------------------------------------------------");
+        ComparatorOperations co = new ComparatorOperations();
+        co.compareStrings();
+
+        System.out.println("---------------------------------------------------");
+        System.out.println("Set operations");
+        System.out.println("---------------------------------------------------");
+        SetOperations so = new SetOperations();
+        so.hashSet();
+        so.linkedHashSet();
+        so.treeSetAscending();
+        so.treeSetDescending();
+
+        System.out.println("---------------------------------------------------");
+        System.out.println("Map operations");
+        System.out.println("---------------------------------------------------");
+        MapOperations mo = new MapOperations();
+        mo.hashMap();
+        mo.treeMap();
     }
 }
